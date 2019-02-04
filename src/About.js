@@ -3,8 +3,6 @@ import { Col, Row } from 'react-bootstrap';
 import MediaQuery from 'react-responsive';
 import './About.css';
 import './purpose.jpg';
-import './demi.jpg';
-import './yiran.png';
 
 class About extends Component {
     render() {
