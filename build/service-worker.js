@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Nobo-Capstone/precache-manifest.835070a9cd37c7daf8721bc19c1259c1.js"
+  "/travel-easy/precache-manifest.a62ebb5d710e9ba511f9b3d4ef3e4bea.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Nobo-Capstone/index.html", {
+workbox.routing.registerNavigationRoute("/travel-easy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
